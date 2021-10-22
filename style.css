@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    background-image:url(images/leo-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    padding: 2rem 0;
+}
+
+nav{
+    max-width: 1100px;
+    margin:0 auto;
+    display: flex;
+    /*justify-content:space-between; */
+    align-items:center;
+    justify-content:flex-start;
+}
+
+.menu > li, .menu > a{
+    display:inline-block;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 1.5rem;
+    font-size: 21px;
+    font-weight: bold;
+
+}
+
+.menu li{
+    position: relative;
+}
+
+.menu a:hover{
+    background-color: rgba(0, 0, 0, 0.473);
+    border-radius:10px;
+}
+
+.submenu{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius:10px;
+    width: 140px;
+    left: 0;
+    margin-top:-10px;
+    display: none;
+}
+
+.submenu2{
+    position: absolute;
+    left:100%;
+    width: 140px;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.349);
+    border-radius:10px;
+    display: none;
+    margin-left:-10px;
+}
+
+.menu li:hover > .submenu{
+    display:block;
+}
+
+.submenu li:hover>.submenu2{
+    display: block;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    padding-right:35%;
+}
+
+.login{
+    height: 100px;
+    width: auto;
+    margin-top:10px;
+}
+
+.ostalo{
+    background-image: url(images/meme-wall.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* MAIN
+
+h1{
+    font-family: 'Questrial', sans-serif;
+    font-size: 65pt;
+    color:white;
+} */
+
+a{
+    font-family: 'Questrial', sans-serif;
+    color: #ed8b00;
+}
+
+.naslov{
+    width: 100%;
+    position: absolute;
+    top: 43%;
+    transform:translateX(-17%);
+    text-align: right;
+    color:white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 30pt;
+}
+
+h2{
+    font-family: 'Ultra', serif;
+    color: #e8d727;
+    font-size:35pt;
+    text-shadow: 2px 4px black;
+    font-weight: lighter;
+}
+
+.ostalo{
+    margin-top: 37%;
+    padding-top: 50px;
+    padding-left:17%;
+    padding-right:17%;
+}
+
+.futer{
+    width:100%;
+    height:auto;
+}
+
+.ostalo h2 img{
+    height:30px;
+    width:auto;
+}
+/* DIDNT WORK OUT
+
+.ostalo h3{
+    font-family: 'Questrial', sans-serif;
+    font-size:20px;
+}
+
+.ostalo p{
+    font-family: 'Questrial', sans-serif;
+
+}
+
+.slike{
+    height: 100px;
+}
+*/
+
+h4{
+    font-family: 'Ultra', serif;
+    color: #e8d727;
+    font-size:25pt;
+    text-shadow: 2px 4px black;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.fifi img{
+    margin-top: 30px;
+    padding-left:12%;
+
+}
+
+h3{
+    font-family: 'Questrial', sans-serif;
+    font-size:25px;
+    margin: 20px;
+    color:#ed8b00;
+}
+
+.fifi p{
+    font-family: 'Questrial', sans-serif;
+    font-size:17px;
+    margin: 10px;
+    text-align: justify;
+    line-height: 23px;
+}
+
+.fifi ol, ul{
+    font-family: 'Questrial', sans-serif;
+    font-size:17px;
+    margin: 10px;
+    margin-left:50px;
+    text-align: justify;
+    line-height: 23px;
+}
+
+.fifi i{
+    text-decoration: underline;
+    color: #ed8b00;
+}
